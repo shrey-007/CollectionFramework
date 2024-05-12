@@ -33,11 +33,11 @@ It is not recommended to use Stack class. Instead use ArrayDeque, it can also wo
 ### 4) LinkedList-:
 It inherits List interface as well as Deque interface
 ### 5) HashSet-:
-   HashSet is implemented using the Hashtable data structure. It offers constant time performance for the performing operations like add, remove, contains, and size.
+   HashSet is implemented using the Hashtable data structure.It stores unique items. It offers constant time performance for the performing operations like add, remove, contains, and size.
 ### 6) LinkedHashSet-:
-LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements.
+LinkedHashSet is an ordered version of HashSet that maintains a doubly-linked List across all elements. It stores the unique items in insertion ordered manner. Difference between HashSet and LinkedHashSet is given in set package. 
 ### 7) TreeSet-:
-TreeSet class is implementations of the SortedSet interface in Java that uses a Tree for storage. The ordering of the elements is maintained by a set using their natural ordering whether an explicit comparator is provided or not.
+TreeSet class is implementations of the SortedSet interface in Java that uses a Tree for storage. It stores unique elements in sorted order using self balancing binary trees.
 ### 8) PriorityQueue-:
 The PriorityQueue is based on the priority heap. The elements of the priority queue are ordered according to the natural ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
 ### 9) ArrayDeque-:
