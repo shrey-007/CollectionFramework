@@ -43,14 +43,11 @@ The PriorityQueue is based on the priority heap. The elements of the priority qu
 ### 9) ArrayDeque-:
 The ArrayDeque class in Java is an implementation of the Deque interface that uses a resizable array to store its elements. The ArrayDeque class provides constant-time performance for inserting and removing elements from both ends.
 ### 10) HashMap-:
-HashMap Class is similar to HashTable but the data unsynchronized. It stores the data in (Key, Value) pairs, and you can access them by an index of another type.
-### 11) EnumMap-:
-EnumMap extends AbstractMap and implements the Map interface in Java.
-### 12) AbstractMap-:
-The AbstractMap class is a part of the Java Collection Framework. It implements the Map interface to provide a structure to it, by doing so it makes the further implementations easier.
-### 13) TreeMap-:
-A TreeMap is implemented using a Red-Black tree.TreeMap provides an ordered collection of key-value pairs, where the keys are ordered based on their natural order or a custom Comparator passed to the constructor.
-
+HashMap Class is similar to HashTable but the data unsynchronized. It stores the data in (Key, Value) pairs, and you can access them by an index of another type. But is does not implement the Iterable interface so you have to first convert the Map(collection of entries) into Set of entries(entry is key value pair). Since Set is iterable so we can iterate it.
+### 12) TreeMap-:
+A TreeMap is implemented using a Red-Black tree.It is used to store key-value in sorted order on basis of its keys.
+       
+Some interfaces like SortedMap, NavigableMap and classes like EnumMap,AbstractMap is remaining
 
 
 

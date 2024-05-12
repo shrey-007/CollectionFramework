@@ -6,7 +6,7 @@ import java.util.Iterator;
 //it is same as hashmap, bas isme only keys store hoti hai, also it stores only unique items
 //it does not have any order of storing elements, just like hashmap
 //it takes o(1) times to add,search.. coz it uses hashmap to store its item
-// The underlying data structure for HashSet is Hashtable.
+// The underlying data structure for HashSet is Hashtable.(HashTable and HashMap are same)
 public class LearnHashSet {
     public static void main(String[] args) {
         HashSet<Integer> hashSet=new HashSet<>();
